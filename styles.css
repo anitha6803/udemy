@@ -1,0 +1,187 @@
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    border: 1px solid #bbb;
+}
+#search{
+    background-image: url(https://img.icons8.com/?size=100&id=132&format=png&color=000000);
+    background-repeat: no-repeat;
+    background-position: 12px 12px;
+    font-size:20px;
+    width:30rem;
+    background-size: 24px;
+    background-position: 12px 12px;
+    height:3rem;
+    border-radius: 3rem;
+    padding-left: 3rem;
+    border: 1px solid black;
+}
+#loginbtn{
+    cursor: pointer;
+    width: 4rem;
+    height: 2.5rem;
+    background-color: white;
+}
+#signupbtn{
+    width: 4rem;
+    height: 2.5rem;
+    background-color:black;
+    color: white;
+}
+.image{
+    background-image: url(https://img-c.udemycdn.com/notices/web_carousel_slide/image/8ffad7cb-20c0-4dc0-8375-3d78d32aacac.png);
+    height:295px;
+    background-repeat: no-repeat;
+    padding-top: 80px; 
+}
+#skills1{
+    width:200px;
+    top:50px;
+    left:50px;
+    background-color:aqua;
+    position: relative;
+    padding:10px;
+   
+}  
+ #courses{
+    flex-direction: column;
+    padding-right: 100px;
+    font-size: 24px;
+ }
+#card1{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+border:1px solid blue;
+padding: 50px;
+width:329px;
+height:390px;
+box-shadow: 5px 5px 5px blue;
+}
+.detailed_courses {
+    display: flex;
+    column-gap: 20px;
+    background-color: #f9f5f5;
+    height: 560px;
+    padding: 20px;
+
+}
+#logo1{
+    gap:500px;
+    padding-left: 120px;
+    padding-top: 20px;
+}
+.learners{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    padding-left: 25px;
+    
+}
+#card2{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height:400px;
+    border: 1px solid blue;
+    padding:20px;
+    box-shadow: 5px 5px 5px blue;
+}
+.goals{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f5f5;
+    height:770px;
+    gap:150px;
+    padding-bottom: 40px;
+    
+    
+}
+#goals1_1{
+    border: 1px solid purple;
+    width:490px ;
+    height: 150px;
+    border-left: 5px solid purple;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 20px;
+    padding-left: 350px;
+    
+}
+#plans1{
+    width:340px;
+    height:512px;
+    border: 1px solid purple;
+    padding:20px;
+    border-radius: 5px;
+    border-top: 5px solid purple;
+}
+.feedback{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 20px;
+    padding-left: 100px;
+    background-color: #f9f5f5;
+    height:500px;
+
+}
+#feedback1{
+    border:1px solid #bbb;
+    width:310px;
+    height:260px;
+    padding: 40px;
+    border-radius: 5px;
+}
+.reports{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.trending{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 50px;
+    padding-left: 350px;
+}
+.pic{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:50px;
+}
+.certificates1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    background-color: black;
+    border: 1px solid white;
+}
+.certificates2{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top:20px;
+    padding-left: 50px;
+}
+#certificates2_22{
+     display: grid;
+     grid-template-columns: 2fr 2fr 2fr 2fr;
+}
+
+
+   
